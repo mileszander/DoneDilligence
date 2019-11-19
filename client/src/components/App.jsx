@@ -6,7 +6,7 @@ class App extends React.Component {
   }
   render () {
     return (
-    <h1>Fix me!</h1>);
+    <h1>A Log Way To Go Yet</h1>);
   }
 }
 
