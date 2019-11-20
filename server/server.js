@@ -3,9 +3,10 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const port = process.env.PORT || 4000;
+const port = process.env.PORT
 const bodyParser = require("body-parser");
 const path = require('path');
+const db = require("../db/config.js")
 
 app.use(cors());
 app.use(express.json());
